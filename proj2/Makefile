@@ -1,5 +1,5 @@
 all:
-  gcc -Wall buffer_user.c -o user_test -lpthread
+  gcc -Wall buffer_user.c test.c -o user_test -lpthread
 clean:
   rm user_test
 run:
